@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu-Regular', sans-serif;
+  background-color: #f0f0f0; /* สีพื้นหลังที่อ่อน */
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; /* ให้คอนเทนเนอร์ครอบคลุมความสูงของหน้าจอ */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.dashboard-content {
+  flex: 1; /* ใช้พื้นที่ที่เหลือทั้งหมด */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* จัดตำแหน่งเนื้อหาตรงกลางแนวตั้ง */
+}
+
+h1 {
+  font-family: 'Ubuntu-Bold', sans-serif;
+  font-size: 36px;
+  color: #403866; /* สีที่ใช้ในหน้า login */
+  margin-bottom: 20px;
+}
+
+.user-list {
+  width: 100%;
+  max-width: 600px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout-button {
+  font-family: 'Ubuntu-Medium', sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #827ffe; /* สีเดียวกับปุ่มในหน้า login */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px; /* เว้นระยะจากเนื้อหาด้านบน */
+}
+
+.logout-button:hover {
+  background-color: #5a5bff; /* เปลี่ยนสีเมื่อเลื่อนเมาส์ */
+}

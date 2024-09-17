@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+} 
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url('../fonts/Ubuntu-Medium.ttf') format('truetype');
+} 
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+} 
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative; /* Allow relative positioning adjustments */
+  top: -30px; /* Move the container up by 20px */
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: 'Ubuntu-Regular', sans-serif; /* ฟอนต์ปกติสำหรับฟอร์ม */
+}
+
+.login-title {
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-size: 30px;
+    color: #403866;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: relative; /* Allow relative positioning adjustments */
+    top: -10px; /* Move the container up by 20px */
+}
+  
+.input-field {
+  font-family: 'Ubuntu-Bold', sans-serif;
+  color: #403866;
+  line-height: 1.2;
+  font-size: 18px;
+  display: block;
+  width: 80%; /* Ensure full width of container */
+  height: 5px; /* Increase height */
+  padding: 30px; /* Increase padding for more internal space */
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  background-color: white;
+}
+
+  
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.forgot-link {
+    font-family: 'Ubuntu-Light', sans-serif; /* ฟอนต์เบาสำหรับลิงก์ */
+    color: #007bff;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+  
+.login-button {
+    font-family: 'Ubuntu-Medium', sans-serif; /* ฟอนต์กลางสำหรับปุ่ม */
+    width: 100%;
+    padding: 15px; /* เพิ่มการเติมเพื่อขยายปุ่ม */
+    font-size: 18px; /* เพิ่มขนาดตัวอักษร */
+    height: auto; /* ปรับความสูงอัตโนมัติตามการเติม */
+    background-color: #827ffe; /* สีพื้นหลังของปุ่ม */
+    color: white; /* สีตัวอักษร */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    font-family: 'Ubuntu-Medium', sans-serif; /* ฟอนต์กลางสำหรับข้อความแสดงข้อผิดพลาด */
+    color: red;
+    margin-top: 10px;
+}

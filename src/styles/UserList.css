@@ -1,0 +1,26 @@
+.user-list-container {
+    padding: 20px;
+  }
+  
+  .search-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+  }
+  
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-item h2 {
+    margin: 0;
+  }
+  
