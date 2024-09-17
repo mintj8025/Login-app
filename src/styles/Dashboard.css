@@ -16,30 +16,30 @@
 body {
   margin: 0;
   font-family: 'Ubuntu-Regular', sans-serif;
-  background-color: #f0f0f0; /* สีพื้นหลังที่อ่อน */
+  background-color: #f0f0f0; 
 }
 
 .dashboard-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh; /* ให้คอนเทนเนอร์ครอบคลุมความสูงของหน้าจอ */
+  height: 100vh; 
   padding: 20px;
   box-sizing: border-box;
 }
 
 .dashboard-content {
-  flex: 1; /* ใช้พื้นที่ที่เหลือทั้งหมด */
+  flex: 1; 
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* จัดตำแหน่งเนื้อหาตรงกลางแนวตั้ง */
+  justify-content: center; 
 }
 
 h1 {
   font-family: 'Ubuntu-Bold', sans-serif;
   font-size: 36px;
-  color: #403866; /* สีที่ใช้ในหน้า login */
+  color: #403866; 
   margin-bottom: 20px;
 }
 
@@ -56,14 +56,14 @@ h1 {
   font-family: 'Ubuntu-Medium', sans-serif;
   font-size: 18px;
   padding: 10px 20px;
-  background-color: #827ffe; /* สีเดียวกับปุ่มในหน้า login */
+  background-color: #827ffe; 
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 20px; /* เว้นระยะจากเนื้อหาด้านบน */
+  margin-top: 20px; 
 }
 
 .logout-button:hover {
-  background-color: #5a5bff; /* เปลี่ยนสีเมื่อเลื่อนเมาส์ */
+  background-color: #5a5bff; 
 }

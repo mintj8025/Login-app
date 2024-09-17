@@ -18,8 +18,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  position: relative; /* Allow relative positioning adjustments */
-  top: -30px; /* Move the container up by 20px */
+  position: relative; 
+  top: -30px; 
 }
 
 .login-form {
@@ -27,7 +27,7 @@
     max-width: 400px;
     padding: 20px;
     border-radius: 8px;
-    font-family: 'Ubuntu-Regular', sans-serif; /* ฟอนต์ปกติสำหรับฟอร์ม */
+    font-family: 'Ubuntu-Regular', sans-serif; 
 }
 
 .login-title {
@@ -39,8 +39,8 @@
     text-align: center;
     width: 100%;
     display: block;
-    position: relative; /* Allow relative positioning adjustments */
-    top: -10px; /* Move the container up by 20px */
+    position: relative; 
+    top: -10px; 
 }
   
 .input-field {
@@ -49,9 +49,9 @@
   line-height: 1.2;
   font-size: 18px;
   display: block;
-  width: 80%; /* Ensure full width of container */
-  height: 5px; /* Increase height */
-  padding: 30px; /* Increase padding for more internal space */
+  width: 80%; 
+  height: 5px; 
+  padding: 30px; 
   margin-bottom: 20px;
   border-radius: 3px;
   border: 1px solid transparent;
@@ -67,7 +67,7 @@
 }
 
 .forgot-link {
-    font-family: 'Ubuntu-Light', sans-serif; /* ฟอนต์เบาสำหรับลิงก์ */
+    font-family: 'Ubuntu-Light', sans-serif; 
     color: #007bff;
     text-decoration: none;
 }
@@ -77,13 +77,13 @@
 }
   
 .login-button {
-    font-family: 'Ubuntu-Medium', sans-serif; /* ฟอนต์กลางสำหรับปุ่ม */
+    font-family: 'Ubuntu-Medium', sans-serif; 
     width: 100%;
-    padding: 15px; /* เพิ่มการเติมเพื่อขยายปุ่ม */
-    font-size: 18px; /* เพิ่มขนาดตัวอักษร */
-    height: auto; /* ปรับความสูงอัตโนมัติตามการเติม */
-    background-color: #827ffe; /* สีพื้นหลังของปุ่ม */
-    color: white; /* สีตัวอักษร */
+    padding: 15px; 
+    font-size: 18px; 
+    height: auto; 
+    background-color: #827ffe; 
+    color: white; 
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -94,7 +94,7 @@
 }
 
 .error-message {
-    font-family: 'Ubuntu-Medium', sans-serif; /* ฟอนต์กลางสำหรับข้อความแสดงข้อผิดพลาด */
+    font-family: 'Ubuntu-Medium', sans-serif; 
     color: red;
     margin-top: 10px;
 }
